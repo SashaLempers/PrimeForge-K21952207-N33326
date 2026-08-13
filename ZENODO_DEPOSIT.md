@@ -35,7 +35,9 @@ affiliation, or blanket data license.
 
 ## DOI sequence
 
-Zenodo reserved `10.5281/zenodo.21916421` for this deposit on 13 August 2026.
+Zenodo reserved and published `10.5281/zenodo.21916421` for this deposit on
+13 August 2026. The public record is
+<https://zenodo.org/records/21916421>.
 The immutable GitHub tag and archive were prepared before reservation and do
 not contain the DOI. The default branch and editable release description may
 reference the reserved DOI; the tag and released archive must not be rewritten
