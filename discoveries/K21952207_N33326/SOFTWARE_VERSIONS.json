@@ -1,0 +1,51 @@
+{
+  "schema": "primeforge.publication.software_versions.v1",
+  "discovery_platform": {
+    "os": "Microsoft Windows 11 Home",
+    "os_version": "10.0.26200",
+    "architecture": "64-bit",
+    "cpu": "AMD Ryzen 9 9950X3D 16-Core Processor",
+    "cpu_cores": 16,
+    "cpu_logical_processors": 32,
+    "gpu": "NVIDIA GeForce RTX 5080",
+    "gpu_compute_capability": "12.0",
+    "nvidia_driver": "610.74",
+    "opencl_runtime_reported_by_proth20": "OpenCL 3.0 CUDA",
+    "cuda_toolkit_detected_at_publication": "13.3 (V13.3.73)",
+    "powershell": "5.1.26100.8894"
+  },
+  "proof_and_verification": {
+    "proth20": {
+      "version": "0.9.1 win64",
+      "adapter_binary_sha256": "0c97e0e9f61c1e1aedb48ed7b7f5fa1f31343a9cb0cb167f4f4eb0e747dc2dfd",
+      "binary_redistributed": false
+    },
+    "pari_gp": {
+      "version": "2.17.4",
+      "preserved_binary_sha256": "518ea54d23832211356c99d1bb58b74a3f0acd354a965543e7bcca9b34030119",
+      "binary_redistributed": false
+    },
+    "cpython": {
+      "version": "3.12.13",
+      "binary_redistributed": false
+    },
+    "flint_supplemental_attempt": {
+      "version": "3.6.0",
+      "status": "ABORTED_RESOURCE_LIMIT",
+      "verdict": "NONE",
+      "binary_redistributed": false
+    }
+  },
+  "primeforge": {
+    "engine_source_commit": "ed270719caca06c7f3780585070519b35ea9af4a",
+    "private_evidence_report_commit": "c7a1a3812ec03a0f3e7be08549816c847ffee3ba",
+    "private_repository_visibility": "PRIVATE",
+    "private_repository_contents_redistributed": false
+  },
+  "publication_tooling": {
+    "git": "2.55.0.windows.3",
+    "github_cli": "2.97.0",
+    "archive_format": "ZIP_DEFLATE",
+    "archive_timestamp": "2026-08-13T00:00:00Z"
+  }
+}

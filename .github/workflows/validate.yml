@@ -1,0 +1,29 @@
+name: validate-publication
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Check out immutable source
+        uses: actions/checkout@d23441a2e711f67f1e73d55eb18d38a8e4498a42
+      - name: Validate metadata, hashes, links, safety, and exact proof
+        run: python scripts/validate_publication.py --full
+      - name: Rebuild release archive twice
+        shell: bash
+        run: |
+          python scripts/build_release.py
+          first=$(sha256sum release/PrimeForge-K21952207-N33326-artifacts.zip | cut -d' ' -f1)
+          python scripts/build_release.py
+          second=$(sha256sum release/PrimeForge-K21952207-N33326-artifacts.zip | cut -d' ' -f1)
+          test "$first" = "$second"

@@ -1,0 +1,12 @@
+N = 21952207 * 2^33326 + 1;
+r = lift(Mod(3, N)^((N - 1) / 2));
+print("PARI_VERSION=", version());
+print("K=21952207");
+print("N_EXPONENT=33326");
+print("DECIMAL_DIGITS=", #Str(N));
+print("K_LT_2_POW_N=", (21952207 < 2^33326));
+print("PROTH_WITNESS_BASE=3");
+print("PROTH_CONGRUENCE=", (r == N - 1));
+print("KRONECKER=", kronecker(3, N));
+print("PARI_PROTH_VERDICT=", if(21952207 < 2^33326 && r == N - 1, "PROVEN_PRIME", "NOT_PROVEN"));
+quit();

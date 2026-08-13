@@ -1,0 +1,8 @@
+family=k*2^n+1
+k=21952207
+n=33326
+N=21952207*2^33326+1
+decimal_digits=10040
+proth_witness=3
+required_congruence=3^((N-1)/2) mod N = N-1
+proth20_res64=NOT_EMITTED_FOR_PRIME

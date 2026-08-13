@@ -1,0 +1,12 @@
+* text=auto eol=lf
+
+# Preserve copied evidence byte-for-byte across Git checkouts.
+discoveries/K21952207_N33326/NUMBER.txt -text
+discoveries/K21952207_N33326/proof/*.log -text
+discoveries/K21952207_N33326/proof/proth-certificate.json -text
+discoveries/K21952207_N33326/independent_verification/pari/output.txt -text
+discoveries/K21952207_N33326/independent_verification/pari/verify.gp -text
+discoveries/K21952207_N33326/independent_verification/python/output.txt -text
+discoveries/K21952207_N33326/independent_verification/python/verify.py -text
+discoveries/K21952207_N33326/novelty_audit/*.json -text
+discoveries/K21952207_N33326/raw/* -text

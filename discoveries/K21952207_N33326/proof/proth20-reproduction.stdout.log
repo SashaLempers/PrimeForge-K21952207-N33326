@@ -1,0 +1,14 @@
+proth20 0.9.1 win64
+Copyright (c) 2020, Yves Gallot
+proth20 is free source code, under the MIT license.
+
+0 - device 'NVIDIA GeForce RTX 5080', vendor 'NVIDIA Corporation', platform 'NVIDIA CUDA'.
+1 - device 'gfx1036', vendor 'Advanced Micro Devices, Inc.', platform 'AMD Accelerated Parallel Processing'.
+
+Running on device 'NVIDIA GeForce RTX 5080', vendor 'NVIDIA Corporation', version 'OpenCL 3.0 CUDA' and driver '610.74'.
+84 compUnits @ 2617MHz, mem=16302MB, cache=2688kB, cacheLine=128B, localMem=48kB, constMem=64kB, maxWorkGroup=1024.
+
+Testing 21952207 * 2^33326 + 1, 10040 digits, size = 2^12 x 21 bits, plan: 256_4 sq_16 p2i_8_64
+21952207 * 2^33326 + 1 is prime, a = 3, time = 00:00:04                        
+PRIMEFORGE_BATCH_COMPLETE	1	21952207	33326	PROVEN_PRIME
+PRIMEFORGE_BATCH_PRIME_FOUND

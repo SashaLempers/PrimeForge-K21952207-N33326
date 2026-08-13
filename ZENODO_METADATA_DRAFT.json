@@ -1,0 +1,44 @@
+{
+  "schema": "primeforge.zenodo.metadata_draft.v1",
+  "title": "Discovery and independent verification of the Proth prime 21952207 × 2^33326 + 1",
+  "creators": [
+    {
+      "name": "Lempers, Sasha"
+    }
+  ],
+  "resource_type": "dataset",
+  "publication_date": "2026-08-13",
+  "version": "1.0.0",
+  "description_html": "<p>We report the discovery and primality proof of the Proth number</p><p>21952207 × 2^33326 + 1.</p><p>The result was independently verified using distinct PARI/GP and Python-based verification paths. A reproducible audit of public databases, project records, repositories, archives, and indexed sources was performed on 13 August 2026. No prior exact public occurrence or documented public interval overlap was found in the sources consulted.</p><p>Accordingly, the result is conservatively classified as a publicly unrecorded candidate as of the audit date. This statement does not exclude private, unpublished, unindexed, or otherwise inaccessible prior computation.</p><p>The deposit contains the primality evidence, independent-verification material, software versions, commands, audit evidence, cryptographic hashes, and reproducibility metadata.</p>",
+  "keywords": [
+    "prime numbers",
+    "Proth primes",
+    "computational number theory",
+    "primality proving",
+    "PrimeForge",
+    "integer arithmetic"
+  ],
+  "related_identifier": {
+    "identifier": "https://github.com/SashaLempers/PrimeForge-K21952207-N33326/releases/tag/discovery-k21952207-n33326-2026-08-13",
+    "relation": "isSupplementTo",
+    "scheme": "url"
+  },
+  "rights": [
+    {
+      "spdx_id": "Apache-2.0",
+      "applies_to": "scripts/ and .github/workflows/validate.yml only"
+    },
+    {
+      "custom_title": "PrimeForge discovery evidence rights statement",
+      "applies_to": "discovery records, reports, logs, numerical output, manifests, and verification data",
+      "description": "Made publicly accessible for scientific inspection and reproducibility. No broader copyright license is granted unless a file says otherwise. Facts and mathematical results may have different legal treatment depending on jurisdiction. Third-party programs and captured web response bodies are not included."
+    }
+  ],
+  "files": [
+    "PrimeForge-K21952207-N33326-artifacts.zip",
+    "SHA256SUMS.txt"
+  ],
+  "doi": null,
+  "record_url": null,
+  "publication_status": "READY_FOR_USER_AUTH"
+}

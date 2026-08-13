@@ -1,0 +1,1 @@
+{"schema":"primeforge.discovery.campaign.v1","campaign_id":"sha256:36e0132df476ff8daebae815c3576d195fafaab05775b31b8a81a05842197cce","family":"k*2^n+1","k_start":21909339,"k_stop":21989339,"exponent":33326,"sieve_bound":65521,"validation_count":0,"batch_size":100,"proth20_sha256":"0c97e0e9f61c1e1aedb48ed7b7f5fa1f31343a9cb0cb167f4f4eb0e747dc2dfd"}

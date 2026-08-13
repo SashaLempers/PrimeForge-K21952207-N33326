@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this evidence dossier, please cite it using these metadata."
+type: dataset
+title: "Discovery and independent verification of the Proth prime 21952207 × 2^33326 + 1"
+authors:
+  - family-names: Lempers
+    given-names: Sasha
+version: 1.0.0
+date-released: "2026-08-13"
+url: "https://github.com/SashaLempers/PrimeForge-K21952207-N33326"
+keywords:
+  - prime numbers
+  - Proth primes
+  - computational number theory
+  - primality proving
+  - PrimeForge
+  - integer arithmetic
