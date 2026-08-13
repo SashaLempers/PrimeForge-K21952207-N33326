@@ -20,4 +20,4 @@ private repository history, credential, or private machine path is included.
 
 The archive SHA-256 is supplied in the separate `SHA256SUMS.txt` attachment.
 
-Zenodo DOI: pending publication.
+Zenodo DOI: [10.5281/zenodo.21916421](https://doi.org/10.5281/zenodo.21916421).

@@ -7,6 +7,7 @@ authors:
     given-names: Sasha
 version: 1.0.0
 date-released: "2026-08-13"
+doi: "10.5281/zenodo.21916421"
 url: "https://github.com/SashaLempers/PrimeForge-K21952207-N33326"
 keywords:
   - prime numbers

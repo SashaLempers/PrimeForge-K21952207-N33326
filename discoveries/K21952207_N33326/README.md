@@ -36,6 +36,10 @@ new_prime_claim=NOT_MADE
 or documented public interval overlap was found in the dated sources consulted.
 It does not establish the absence of private or unpublished prior computation.
 
+## Publication
+
+Zenodo DOI: [`10.5281/zenodo.21916421`](https://doi.org/10.5281/zenodo.21916421).
+
 ## Reproduce the proof
 
 Run the public validator from the repository root:
