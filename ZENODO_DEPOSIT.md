@@ -35,8 +35,8 @@ affiliation, or blanket data license.
 
 ## DOI sequence
 
-Because no authenticated Zenodo session was available when the GitHub release
-was prepared, the immutable GitHub tag and archive do not contain a DOI. After
-Zenodo publication, add the final DOI to the default-branch README,
-`CITATION.cff`, and the editable GitHub release description. Do not rewrite the
-tag or replace the released archive.
+Zenodo reserved `10.5281/zenodo.21916421` for this deposit on 13 August 2026.
+The immutable GitHub tag and archive were prepared before reservation and do
+not contain the DOI. The default branch and editable release description may
+reference the reserved DOI; the tag and released archive must not be rewritten
+or replaced.

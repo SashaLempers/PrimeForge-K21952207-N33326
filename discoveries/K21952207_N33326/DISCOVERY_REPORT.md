@@ -108,3 +108,10 @@ green Windows/Linux CI.
 
 Detailed versions, commands, raw evidence, and hashes are linked from the
 directory [`README.md`](README.md).
+
+## Publication
+
+The public evidence deposit is identified by Zenodo DOI
+[`10.5281/zenodo.21916421`](https://doi.org/10.5281/zenodo.21916421). The DOI
+record contains the deterministic evidence archive and its separate SHA-256
+checksum file.

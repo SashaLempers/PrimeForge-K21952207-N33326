@@ -38,7 +38,7 @@
     "PrimeForge-K21952207-N33326-artifacts.zip",
     "SHA256SUMS.txt"
   ],
-  "doi": null,
-  "record_url": null,
-  "publication_status": "READY_FOR_USER_AUTH"
+  "doi": "10.5281/zenodo.21916421",
+  "record_url": "https://doi.org/10.5281/zenodo.21916421",
+  "publication_status": "DOI_RESERVED"
 }

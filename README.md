@@ -71,7 +71,7 @@ the PARI binary is not redistributed.
 
 - Version: `1.0.0`
 - Immutable tag: `discovery-k21952207-n33326-2026-08-13`
-- Zenodo DOI: pending reservation/publication
+- Zenodo DOI: [`10.5281/zenodo.21916421`](https://doi.org/10.5281/zenodo.21916421)
 - Citation metadata: [`CITATION.cff`](CITATION.cff)
 
 See [`RIGHTS.md`](RIGHTS.md) before redistributing material from this export.
